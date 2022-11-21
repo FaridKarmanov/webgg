@@ -1,0 +1,45 @@
+.slogan {
+  display: flex;
+  flex-direction: column;
+  margin-top: 182px;
+}
+
+.slogan__container {
+  display: flex;
+}
+
+.slogan__image {
+  width: 342px;
+  height: 342px;
+}
+
+.slogan__container:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+
+.slogan__information {
+  display: flex;
+  flex-direction: column;
+  margin-top: 75px;
+}
+
+.slogan__title {
+  margin-bottom: 50px;
+  font-family: Jura;
+  font-size: 62px;
+  font-weight: 700;
+  line-height: 73px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.slogan__description {
+  max-width: 539px;
+  width: 100%;
+  font-family: Raleway;
+  font-size: 19px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+  text-align: left;
+}
