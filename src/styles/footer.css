@@ -1,9 +1,17 @@
 .footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
   margin-top: 141px;
+}
+@media screen and (max-width: 1200px) {
+    .footer {
+        margin-top: 60px;
+    }
+}
+
+.footer__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .footer__container {
@@ -32,8 +40,18 @@
   color: white;
   background: #137d8b;
 }
+@media screen and (max-width: 720px) {
+    .dropdown {
+        padding: 16px;
+    }
+}
 
 .dropdown__button {
   border: none;
   background: none;
+  min-width: 29px;
+}
+
+.dropdown__text {
+    font-family: Jura;
 }

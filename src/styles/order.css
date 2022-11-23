@@ -4,11 +4,19 @@
   margin-top: 295px;
 }
 
+@media screen and (max-width: 1200px) {
+    .order {
+        margin-top: 120px;
+    }
+}
+
 .order__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   max-width: 1270px;
   width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
 }
 
 .form {
@@ -26,6 +34,12 @@
   line-height: 59px;
   letter-spacing: 0em;
   text-align: left;
+}
+@media screen and (max-width: 900px) {
+    .form__title {
+        font-size: 39px;
+        line-height: 44px;
+    }
 }
 
 .form__subtitle {

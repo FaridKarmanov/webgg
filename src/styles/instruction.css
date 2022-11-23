@@ -1,7 +1,18 @@
 .instruction {
   display: flex;
   justify-content: space-between;
-  padding: 0 35px;
+}
+
+@media screen and (max-width: 1295px) {
+    .instruction {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 1295px) {
+
 }
 
 .instruction__container {
@@ -10,6 +21,16 @@
   max-width: 615px;
   width: 100%;
   margin-top: 93px;
+  gap: 20px;
+}
+
+@media screen and (max-width: 800px) {
+    .instruction__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 50px
+    }
 }
 
 .instruction__button {
@@ -17,16 +38,35 @@
   align-items: center;
   justify-content: center;
   width: 142px;
+  min-width: 142px;
   height: 142px;
   border-radius: 50%;
   background: none;
   border: 1px solid white;
 }
 
+@media screen and (max-width: 720px) {
+    .instruction__button {
+       width: 64px;
+       height: 64px;
+       min-width: 64px;
+    }
+
+    .instruction__button img {
+        width: 26px;
+    }
+}
+
 .instruction__information {
   display: flex;
   flex-direction: column;
   max-width: 430px;
+}
+
+@media screen and (max-width: 800px) {
+    .instruction__information p {
+        text-align: center;
+    }
 }
 
 .instruction__title {
@@ -52,10 +92,9 @@
 }
 
 .instruction__order {
-  max-width: 409px;
+  max-width: 410px;
   width: 100%;
   height: 74px;
-  padding: 23px 85px;
   margin-top: 159px;
   font-family: Jura;
   font-size: 32px;
@@ -67,4 +106,12 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border: none;
   color: white;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 720px) {
+    .instruction__order {
+        font-size: 18px;
+        margin-top: 50px;
+    }
 }

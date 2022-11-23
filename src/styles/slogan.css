@@ -4,23 +4,56 @@
   margin-top: 182px;
 }
 
+@media screen and (max-width: 920px) {
+    .slogan {
+        margin-top: 100px;
+    }
+}
+
 .slogan__container {
   display: flex;
 }
 
+@media screen and (max-width: 920px) {
+    .slogan__container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 .slogan__image {
-  width: 342px;
-  height: 342px;
+  max-width: 342px;
+  width: 100%;
+}
+
+@media screen and (max-width: 920px) {
+    .slogan__image {
+        max-width: 220px;
+        margin-bottom: -20px;
+    }
 }
 
 .slogan__container:nth-child(2n) {
   flex-direction: row-reverse;
 }
 
+@media screen and (max-width: 920px) {
+    .slogan__container:nth-child(2n) {
+        flex-direction: column;
+    }
+}
+
 .slogan__information {
   display: flex;
   flex-direction: column;
   margin-top: 75px;
+}
+
+@media screen and (max-width: 1295px) {
+    .slogan__information {
+        margin-top: 40px;
+    }
 }
 
 .slogan__title {
@@ -33,6 +66,25 @@
   text-align: left;
 }
 
+@media screen and (max-width: 1295px) {
+    .slogan__title {
+        font-size: 42px;
+        line-height: 52px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 920px) {
+    .slogan__title {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 420px) {
+    .slogan__title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+}
+
 .slogan__description {
   max-width: 539px;
   width: 100%;
@@ -43,3 +95,9 @@
   letter-spacing: 0em;
   text-align: left;
 }
+@media screen and (max-width: 920px) {
+    .slogan__description {
+        text-align: center;
+    }
+}
+

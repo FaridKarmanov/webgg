@@ -6,9 +6,11 @@
 
 .offer__container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 20px;
   max-width: 1270px;
   width: 100%;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -33,6 +35,13 @@
   letter-spacing: 0em;
   text-align: center;
 }
+@media screen and (max-width: 720px) {
+    .card__title {
+        font-size: 22px;
+        line-height: 28px;
+        margin-bottom: 30px;
+    }
+}
 
 .card__description {
   max-width: 357px;
@@ -44,6 +53,13 @@
   line-height: 38px;
   letter-spacing: 0em;
   text-align: center;
+}
+@media screen and (max-width: 720px) {
+    .card__description {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 50px;
+    }
 }
 
 .card__price {
