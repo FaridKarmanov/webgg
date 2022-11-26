@@ -5,9 +5,9 @@
 }
 
 @media screen and (max-width: 1200px) {
-    .order {
-        margin-top: 120px;
-    }
+  .order {
+    margin-top: 120px;
+  }
 }
 
 .order__container {
@@ -36,10 +36,10 @@
   text-align: left;
 }
 @media screen and (max-width: 900px) {
-    .form__title {
-        font-size: 39px;
-        line-height: 44px;
-    }
+  .form__title {
+    font-size: 39px;
+    line-height: 44px;
+  }
 }
 
 .form__subtitle {
@@ -67,7 +67,6 @@
   border-radius: 10px;
   border: none;
   background-color: #7c7193;
-  color: white;
 }
 
 .form__letter {
@@ -82,7 +81,6 @@
 
 .form__button {
   width: 100%;
-  padding: 9px;
   font-family: Jura;
   font-size: 20px;
   font-weight: 700;
@@ -96,4 +94,9 @@
     rgba(69, 193, 212, 0) 112.47%
   );
   border-radius: 10px;
+}
+
+::placeholder {
+  color: white;
+  padding: 9px;
 }
