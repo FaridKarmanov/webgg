@@ -50,6 +50,7 @@
   border: none;
   background: none;
   min-width: 29px;
+  cursor: pointer;
 }
 
 .dropdown__text {
