@@ -51,7 +51,6 @@ grid-template-rows: auto;
   border: none;
   background: none;
   min-width: 29px;
-  cursor: pointer;
 }
 
 .dropdown__title {
@@ -63,4 +62,4 @@ grid-template-rows: auto;
   font-family: Jura;
   font-size: 1rem;
   display: none;
-}
+  }
