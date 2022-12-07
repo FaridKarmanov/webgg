@@ -11,8 +11,6 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/src/styles/index.css" />
-
-    <script src="./js/script.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -37,42 +35,35 @@
               <div class="instruction__information">
                 <p class="instruction__title">Разработка любой сложности</p>
                 <p class="instruction__description">
-                  Профессиональное создание корпоративных сайтов,
-                  интернет-магазинов, промо-сайтов и сайтов небольших ком-паний.
+                    Создание тяжелых корпоративных сайтов, всевозможных интернет-магазинов, промо-страниц и лендингов небольших компаний.
                 </p>
               </div>
             </div>
-            <button class="instruction__order">Заказать сайт</button>
-        </div>
+            <button class="instruction__order"  >Заказать сайт</button>
+        </div>      
 
         <div class="offer">
         <div class="offer__container">
             <div class="card">
             <h2 class="card__title">Лендиги для вашего бизнеса</h2>
             <p class="card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-                at eaque accusantium consequuntur ratione ad eligendi aperiam
-                porro! Repudiandae, maxime.
+                Вам нужно описать себя как экспертную персону, легко и ненавязчиво рассказать о своём бизнесе без лишних затрат, проблем и сложностей? Вам прекрасно подойдет лендинг.
             </p>
-            <p class="card__price">10000$</p>
+            <p class="card__price">10.000₽</p>
             </div>
             <div class="card">
             <h2 class="card__title">Крупные сервисы</h2>
             <p class="card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-                at eaque accusantium consequuntur ratione ad eligendi aperiam
-                porro! Repudiandae, maxime.
+                Наша команда настоящих профессионалов может выполнить и сложную задачу на уровне крупных IT-компаний. Ещё не было такого проекта, который они не смогли реализовать - WebGG могут всё.
             </p>
-            <p class="card__price">10000$</p>
+            <p class="card__price">10.000₽</p>
             </div>
             <div class="card">
             <h2 class="card__title">Многостраничные сайты</h2>
             <p class="card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam,
-                at eaque accusantium consequuntur ratione ad eligendi aperiam
-                porro! Repudiandae, maxime.
+                Один из самых частых запросов - многостраничник. Данная структура в следствие опыта даётся нам проще всего, и мы реализовываем её очень качественно и быстро одновременно.
             </p>
-            <p class="card__price">10000$</p>
+            <p class="card__price">10.000₽</p>
             </div>
         </div>
         </div>
@@ -83,8 +74,7 @@
             <div class="slogan__information">
             <h2 class="slogan__title">ДЕЛАЕМ ОГНЕННЫЙ ДИЗАЙН</h2>
             <p class="slogan__description">
-                Наши сотрудники придерживаются ключевых принципов при разработке
-                уникального веб-дизайна. Индивидуальный подход к каждому проекту.
+                Наши сотрудники - креативные и ответственные, поэтому они любят создавать цепляющий дизайн, придерживаясь ключевых принципов при разработке. Мы также гарантируем индивидуальный подход к каждому проекту.
             </p>
             </div>
         </div>
@@ -93,8 +83,7 @@
             <div class="slogan__information">
             <h2 class="slogan__title">ТОЛЬКО КАЧЕСТВЕННЫЙ КОД</h2>
             <p class="slogan__description">
-                Адаптивная под все устройства вёрстка и Структурированный код.
-                Использование современных технологий и фреймворков
+                Адаптивная под все устройства вёрстка и грамотно структурированный код для лучшего быстродействия сайта. Использование самых современных технологий и фреймворков.
             </p>
             </div>
         </div>
@@ -103,8 +92,7 @@
             <div class="slogan__information">
             <h2 class="slogan__title">ОБСЛУЖИВАНИЕ САЙТА</h2>
             <p class="slogan__description">
-                Гарантируем обслуживание и устранение неполадок на вашем веб-сайте
-                в течении месяца после окончания сделки
+                Наши приоритеты - качество работы и забота о клиентах, поэтому мы гарантируем бесплатное обслуживание и устранение неполадок на Вашем веб-сайте в течение месяца после окончания сделки.
             </p>
             </div>
         </div>
@@ -113,9 +101,7 @@
             <div class="slogan__information">
             <h2 class="slogan__title">ПРИЯТНЫЕ ЦЕНЫ НА УСЛУГИ</h2>
             <p class="slogan__description">
-                Качественные лендинги от 10 000 рублей. Получите предложение в 3-х
-                ценовых вариантах прямо сейчас
-            </p>
+                Стоимость - это последнее, что тревожит наших клиентов. Качественные лендинги всего от 10.000₽. Получите предложения в трех разных ценовых вариантах в первые минуты после начала сотрудничества.            </p>
             </div>
         </div>
         </div>
@@ -157,14 +143,15 @@
             <p class="form__subtitle">
                 Отправьте нам E-mail и мы с вами свяжемся!
             </p>
-            <input class="form__name" type="text" placeholder="Имя" />
-            <input class="form__email" type="email" placeholder="E-mail" />
+            <input class="form__name" id="form__name" type="text" placeholder="Имя" />
+            <input class="form__email" id="form__email" type="email" placeholder="E-mail" />
             <textarea
                 class="form__letter"
+                id="form_letter"
                 type="text"
                 placeholder="Сообщение"
             ></textarea>
-            <button class="form__button" type="submit">Отправить</button>
+            <button class="form__button" id="send" type="submit">Отправить</button>
             </form>
             <img class="order__image" src="./assets/web.svg" alt="web" />
         </div>
@@ -178,20 +165,37 @@
                 <h2 class="footer__title">FAQ</h2>
                 <div class="footer__container">
                     <div class="dropdown">
-                        <p class="dropdown__text">Как веб-сайт поможет моему бизнесу?</p>
-                        <button  class="dropdown__button"><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <h2 class="dropdown__title">Как веб-сайт поможет моему бизнесу?</h2>
+                        <button  class="dropdown__button"   ><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <p class="dropdown__description" > У каждого бизнеса или личности должен быть личный сайт. На нём Вы можете раскрыть интересную информацию о себе или бизнесе, показать Ваш ассортимент товаров или услуг, а также ответить на те вопросы, которые Вам задают на постоянной основе - так Вам будет легче заниматься своим любымим делом. Применений сайта - множество, и если Вы не можете понять, к чему он Вас приведет - рекомендуем обратиться к нам, и мы вместе обсудим, как сайт Вам поможет.</p>
                     </div>
                     <div class="dropdown">
-                        <p class="dropdown__text">Какой именно сайт мне подойдёт ?</p>
-                        <button  class="dropdown__button"><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <h2 class="dropdown__title">Какой именно сайт мне подойдёт ?</h2>
+                        <button  class="dropdown__button" ><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <p class="dropdown__description" >Здесь всё максимально индивидуально - нужно понимать задачи, интересующую Вас структуру, имеющийся бюджет и возможности, которые может предоставить Вам новосозданный сайт. Вывод о том, какой именно сайт подойдет конкретно Вам, можно сделать после небольших обсуждений с нашими менеджерами.</p>
                     </div>
                     <div class="dropdown">
-                        <p class="dropdown__text">Почему  именно мы ?</p>
-                        <button  class="dropdown__button"><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <h2 class="dropdown__title">Почему стоит выбрать именно нас?</h2>
+                        <button  class="dropdown__button " ><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <p class="dropdown__description" >Сотрудники WebGG занимаются веб-разработкой уже более 4-х лет, у нас предостаточно опыта и мы выполняем свою работу максимально трепетно и качественно. Мы любим доводить всё до идеала и обожаем, когда клиент доволен нашей работой, а ещё у нас нет ни одного не реализованного проекта - настолько команда профессиональна в своей деятельности.</p>
                     </div>
+                    <div class="dropdown">
+                        <h2 class="dropdown__title">Сколько времени займет создание сайта?</h2>
+                        <button  class="dropdown__button" ><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <p class="dropdown__description" >Чем сложнее проект - тем дольше, однако обычно даже крупные многостраничные сайты занимают в среднем месяц работы. Всё в зависимости от наполненности сайта и сложности структуры - перед началом работы мы Вам обязательно скажем ориентировочный срок выдачи проекта.</p>
+                    </div>
+                    <div class="dropdown">
+                        <h2 class="dropdown__title">А что будет после окончания сотрудничества?</h2>
+                        <button  class="dropdown__button" ><img src="./assets/drop-arrow.svg" alt="arrow"></button>
+                        <p class="dropdown__description" >Наша задача - создать комфорт для клиента, поэтому мы никогда не пропадаем и всегда находимся на связи. После окончания сотрудничества мы предоставляем месяц на обслуживание сайта и устранение неполадок. Мы всегда рады помочь Вам, поэтому, если вдруг потребуется консультация, помощь в управлении сайтом, продвижение или какая-либо другая услуга - просто свяжитесь с нами, и мы ответим Вам в ближайшее время.</p>
+                    </div>
+                    
                 </div>
             </div>
         </div>
     </footer>
+
+    <script src="./js/script.js"></script>
+
   </body>
 </html>

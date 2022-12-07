@@ -31,8 +31,9 @@
 }
 
 .dropdown {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+grid-template-columns: 95% 5%;
+grid-template-rows: auto;
   max-width: 100%;
   padding: 21px 25px;
   margin-bottom: 20px;
@@ -53,6 +54,13 @@
   cursor: pointer;
 }
 
-.dropdown__text {
-    font-family: Jura;
+.dropdown__title {
+  font-family: Jura;
+  font-size: 2rem;
+}
+
+.dropdown__description {
+  font-family: Jura;
+  font-size: 1rem;
+  display: none;
 }
